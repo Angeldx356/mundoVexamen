@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRESAS</title>
+    <script src="/aframe.min.js"></script>
+</head>
+<body>
+    <a-assets>
+        <a-asset-item id="arb1" src="./assets/arbol1.glb"></a-asset-item>
+        <a-asset-item id="arb2" src="./assets/arbol2.glb"></a-asset-item>
+        <a-asset-item id="canasta" src="./assets/canasta.glb"></a-asset-item>
+        <a-asset-item id="cancha" src="./assets/cancha.glb"></a-asset-item>
+        <a-asset-item id="castillo" src="./assets/castillos.glb"></a-asset-item>
+        <a-asset-item id="edif1" src="./assets/delegacion.glb"></a-asset-item>
+        <a-asset-item id="fente" src="./assets/fuente_morelos.glb"></a-asset-item>
+        <a-asset-item id="jardinera" src="./assets/jardinera1.glb"></a-asset-item>
+    </a-assets>
+    <a-scene>
+        <a-plane color="#CCC" height="400" width="200" rotation="-90 0 0" position="-50 -2 -93"></a-plane>
+
+        <a-gltf-model src="#arb1" scale="1 1 1" rotation="0 90 0" position="47 -2 90"></a-gltf-model>
+        <a-gltf-model src="#arb1" scale="1 1 1" rotation="0 90 0" position="47 -2 80"></a-gltf-model>
+        <a-gltf-model src="#arb1" scale="1 1 1" rotation="0 90 0" position="47 -2 70"></a-gltf-model>
+        <a-gltf-model src="#arb1" scale="1 1 1" rotation="0 90 0" position="47 -2 60"></a-gltf-model>
+        <a-gltf-model src="#arb1" scale="1 1 1" rotation="0 90 0" position="47 -2 50"></a-gltf-model>
+        <a-gltf-model src="#arb1" scale="1 1 1" rotation="0 90 0" position="47 -2 40"></a-gltf-model>
+        <a-gltf-model src="#arb1" scale="1 1 1" rotation="0 90 0" position="47 -2 30"></a-gltf-model>
+
+        <a-gltf-model src="#arb1" scale="1 1 1" rotation="0 90 0" position="47 -2 -10"></a-gltf-model>
+        <a-gltf-model src="#arb1" scale="1 1 1" rotation="0 90 0" position="47 -2 -30"></a-gltf-model>
+        <a-gltf-model src="#arb1" scale="1 1 1" rotation="0 90 0" position="47 -2 -50"></a-gltf-model>
+        <a-gltf-model src="#arb1" scale="1 1 1" rotation="0 90 0" position="47 -2 -70"></a-gltf-model>
+
+        <a-gltf-model src="#jardinera" scale="0.4 0.5 0.4" rotation="0 90 0" position="28 -1 -13"></a-gltf-model>
+        <a-gltf-model src="#jardinera" scale="0.4 0.5 0.4" rotation="0 -0 0" position="28 -1 -65"></a-gltf-model>
+
+        <a-gltf-model src="#castillo" scale="1 1 1" rotation="0 -47 0" position="7 -2 -25"></a-gltf-model>
+        <a-gltf-model src="#castillo" scale="1 1 1" rotation="0 47 0" position="0 -2 -60"></a-gltf-model>
+
+        <a-gltf-model src="#castillo" scale="1 1 1" rotation="0 -47 0" position="-77 -2 -113"></a-gltf-model>
+        <a-gltf-model src="#castillo" scale="1 1 1" rotation="0 47 0" position="-106 -2 29"></a-gltf-model>
+
+        <a-gltf-model src="#fente" scale="1.2 1.2 1.2" rotation="0 -90 0" position="-18 -2 -93"></a-gltf-model>
+
+        <!-- <a-gltf-model src="#arb2" scale="0.1 0.1 0.1"></a-gltf-model> -->
+        <a-gltf-model src="#canasta" scale="0.1 0.1 0.1"></a-gltf-model>
+        <a-gltf-model src="#cancha" scale=".4 .2 .4" rotation="0 -180 0" position="25 -1 60"></a-gltf-model>
+        <a-gltf-model src="#edif1" scale="0.3 0.2 0.3" rotation="0 0 0" position="-43 -2 92"></a-gltf-model>
+        
+
+        <a-sky color="cyan"></a-sky>
+    </a-scene>
+</body>
+</html>
